@@ -4,7 +4,8 @@ import java.util.*;
 class Main
   {
     public static void main(string[] args)
-    Scanner sc = new Scanner(System.in);
+    {
+       Scanner sc = new Scanner(System.in);
 
     int n = sc.nextInt();
 
@@ -19,5 +20,6 @@ class Main
     else
     {
       System.out.println("Odd");
+    }
     }
   }
